@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="docx-page-size" content="A4">
+<title>高分简历撰写技巧 · 课程录音纪要</title>
+<style>
+:root {
+  --fs-h1: 18pt;
+  --fs-h2: 15pt;
+  --fs-h3: 13pt;
+  --fs-h4: 12pt;
+  --fs-body: 12pt;
+  --fs-small: 10pt;
+  --fs-title: 26pt;
+  --ff-heading: 微软雅黑, Microsoft YaHei, PingFang SC, sans-serif;
+  --ff-body: 宋体, SimSun, serif;
+  --lh-body: 1.75;
+  --lh-heading: 1.35;
+  --fw-bold: 700;
+  --fw-normal: 400;
+  --color-primary: #2563EB;
+  --color-heading: #1E3A8A;
+  --color-text: #111827;
+  --color-muted: #6B7280;
+  --color-border: #DBEAFE;
+  --color-bg: #FFFFFF;
+  --color-highlight: #EFF6FF;
+  --color-surface: #F8FAFC;
+  --color-accent: #0288D1;
+  --color-warn-bg: #FFFBEB;
+  --color-warn-bd: #F59E0B;
+  --color-ok-bg: #F0FDF4;
+  --color-ok-bd: #047857;
+  --color-no-bg: #FEF2F2;
+  --color-no-bd: #B91C1C;
+  --fs-cover-subtitle: 14pt;
+  --color-white: #FFFFFF;
+  --color-no-text: #991B1B;
+  --color-no-text-soft: #7F1D1D;
+  --color-ok-text: #065F46;
+  --color-warn-text: #92400E;
+  --spacing-paragraph: 0.6em;
+  --spacing-section: 1.8em;
+  --spacing-block: 1em;
+  --spacing-xs: 0.15em;
+  --spacing-sm: 0.28em;
+  --spacing-md: 0.5em;
+  --spacing-lg: 0.75em;
+  --spacing-xl: 1em;
+  --spacing-2xl: 1.5em;
+  --spacing-3xl: 2.4em;
+  --spacing-cover-top: 4.6em;
+  --spacing-cover-gap: 3.2em;
+  --spacing-toc-top: 3.6em;
+  --spacing-field: 0.42em 0.7em;
+  --spacing-field-sm: 0.35em 0.6em;
+  --spacing-field-xs: 0.15em 0.6em;
+  --spacing-cell: 0.5em 0.7em;
+  --spacing-card: 0.75em 0.9em;
+  --spacing-formula: 0.6em 0.8em;
+  --spacing-src: 0.45em 0.7em;
+  --page-content-width: 15.6cm;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  max-width: var(--page-content-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--ff-heading);
+  line-height: var(--lh-heading);
+  font-weight: var(--fw-bold);
+  color: var(--color-heading);
+  margin-top: var(--spacing-section);
+  margin-bottom: var(--spacing-paragraph);
+}
+h1 { font-size: var(--fs-h1); }
+h2 { font-size: var(--fs-h2); }
+h3 { font-size: var(--fs-h3); }
+h4 { font-size: var(--fs-h4); color: var(--color-text); }
+
+p {
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--color-text);
+  text-indent: 2em;
+  margin-bottom: var(--spacing-paragraph);
+  text-align: justify;
+}
+
+ul, ol { padding-left: var(--spacing-3xl); margin-bottom: var(--spacing-block); }
+li {
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--color-text);
+  margin-bottom: var(--spacing-sm);
+}
+
+strong { font-weight: var(--fw-bold); color: var(--color-heading); }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: var(--spacing-block);
+  font-family: var(--ff-heading);
+  font-size: var(--fs-small);
+}
+th, td {
+  padding: var(--spacing-cell);
+  border: 1px solid var(--color-border);
+  text-align: left;
+  font-family: var(--ff-heading);
+  font-size: var(--fs-small);
+  line-height: 1.6;
+  color: var(--color-text);
+  text-indent: 0;
+}
+th {
+  font-weight: var(--fw-bold);
+  background: var(--color-highlight);
+  color: var(--color-heading);
+  text-align: center;
+}
+td { vertical-align: top; }
+
+figure { margin: var(--spacing-block) 0 1.4em 0; text-align: center; }
+img { max-width: 100%; }
+figcaption {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-small);
+  color: var(--color-muted);
+  text-align: center;
+  margin-top: var(--spacing-md);
+  text-indent: 0;
+}
+
+/* ---------- 封面 ---------- */
+.cover-eyebrow {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-small);
+  color: var(--color-primary);
+  letter-spacing: 3px;
+  text-align: center;
+  text-indent: 0;
+  margin-top: var(--spacing-cover-top);
+  margin-bottom: var(--spacing-lg);
+  font-weight: var(--fw-bold);
+}
+.cover-title {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-title);
+  color: var(--color-heading);
+  font-weight: var(--fw-bold);
+  text-align: center;
+  text-indent: 0;
+  line-height: 1.4;
+  margin-bottom: var(--spacing-md);
+}
+.cover-subtitle {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-cover-subtitle);
+  color: var(--color-primary);
+  text-align: center;
+  text-indent: 0;
+  margin-bottom: var(--spacing-sm);
+}
+.cover-desc {
+  font-family: var(--ff-body);
+  font-size: var(--fs-small);
+  color: var(--color-muted);
+  text-align: center;
+  text-indent: 0;
+  margin-bottom: var(--spacing-cover-gap);
+}
+.cover-meta {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-small);
+  color: var(--color-muted);
+  text-align: center;
+  text-indent: 0;
+  line-height: 2.1;
+}
+
+/* ---------- 目录 ---------- */
+.toc-title {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+  color: var(--color-heading);
+  text-align: center;
+  text-indent: 0;
+  margin-top: var(--spacing-toc-top);
+  margin-bottom: var(--spacing-xl);
+}
+.toc-list, .toc-list ol, .toc-list ul { list-style: none; list-style-type: none; padding-left: var(--spacing-2xl); }
+.toc-list { font-family: var(--ff-body); font-size: var(--fs-body); padding-left: 0; }
+.toc-list li {
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  text-indent: 0;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
+  line-height: 1.9;
+}
+.toc-list a { color: var(--color-text); text-decoration: none; }
+.toc-list > li > a { font-weight: var(--fw-bold); color: var(--color-heading); }
+.toc-list ol { margin-bottom: var(--spacing-xs); }
+.toc-list ol li { font-size: var(--fs-small); color: var(--color-muted); margin-bottom: var(--spacing-sm); }
+
+/* ---------- 章节 ---------- */
+.section-header {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-h1);
+  color: var(--color-white);
+  background: var(--color-heading);
+  text-align: left;
+  text-indent: 0;
+  padding: var(--spacing-field);
+  margin-top: var(--spacing-section);
+  margin-bottom: var(--spacing-xl);
+  line-height: 1.4;
+}
+h2.subrule {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-h3);
+  color: var(--color-heading);
+  border-left: 4px solid var(--color-primary);
+  background: var(--color-highlight);
+  padding: var(--spacing-field-sm);
+  text-indent: 0;
+  margin-top: var(--spacing-2xl);
+  margin-bottom: var(--spacing-lg);
+}
+h3.subrule2 {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-body);
+  color: var(--color-primary);
+  border-left: 3px solid var(--color-accent);
+  padding: var(--spacing-field-xs);
+  text-indent: 0;
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-md);
+}
+h4.plain {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-body);
+  color: var(--color-text);
+  text-indent: 0;
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-sm);
+}
+
+/* ---------- 组件 ---------- */
+.quote-card {
+  font-family: var(--ff-body);
+  font-size: var(--fs-small);
+  color: var(--color-heading);
+  background: var(--color-highlight);
+  border-left: 4px solid var(--color-primary);
+  padding: var(--spacing-card);
+  margin: var(--spacing-lg) 0;
+  text-indent: 0;
+  line-height: 1.8;
+}
+.bad-card {
+  font-family: var(--ff-body);
+  font-size: var(--fs-small);
+  color: var(--color-no-text);
+  background: var(--color-no-bg);
+  border-left: 4px solid var(--color-no-bd);
+  padding: var(--spacing-card);
+  margin: var(--spacing-lg) 0;
+  text-indent: 0;
+  line-height: 1.8;
+}
+.good-card {
+  font-family: var(--ff-body);
+  font-size: var(--fs-small);
+  color: var(--color-ok-text);
+  background: var(--color-ok-bg);
+  border-left: 4px solid var(--color-ok-bd);
+  padding: var(--spacing-card);
+  margin: var(--spacing-lg) 0;
+  text-indent: 0;
+  line-height: 1.8;
+}
+.note-card {
+  font-family: var(--ff-body);
+  font-size: var(--fs-small);
+  color: var(--color-warn-text);
+  background: var(--color-warn-bg);
+  border-left: 4px solid var(--color-warn-bd);
+  padding: var(--spacing-card);
+  margin: var(--spacing-lg) 0;
+  text-indent: 0;
+  line-height: 1.8;
+}
+.label-bad { color: var(--color-no-bd); font-weight: var(--fw-bold); }
+.label-good { color: var(--color-ok-bd); font-weight: var(--fw-bold); }
+.formula {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-small);
+  color: var(--color-heading);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: var(--spacing-formula);
+  margin: var(--spacing-paragraph) 0;
+  text-align: center;
+  text-indent: 0;
+  line-height: 1.9;
+}
+.src-note {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-small);
+  color: var(--color-muted);
+  background: var(--color-surface);
+  padding: var(--spacing-src);
+  margin: var(--spacing-sm) 0 var(--spacing-xl) 0;
+  text-indent: 0;
+  line-height: 1.7;
+}
+
+/* 页面规则：封面与目录不显示页脚，正文页脚居中显示页码 */
+@page { @bottom-center { content: counter(page); } }
+@page cover { @bottom-center { content: none; } }
+section[role="cover"] { page: cover; }
+</style>
+</head>
+<body>
+
+<section role="cover">
+  <p class="cover-eyebrow">DESIGNER CAREER · RESUME</p>
+  <p class="cover-title">高分简历撰写技巧</p>
+  <p class="cover-subtitle">设计师求职简历完整方法论</p>
+  <p class="cover-desc">课程录音纪要 · 正反案例对比教学</p>
+  <p class="cover-meta">三大核心板块 · 格式规范 · 电话谈判技巧<br>学员问答与课后作业</p>
+</section>
+
+<section role="cover">
+<nav class="doc-toc" aria-label="文档目录">
+  <p class="toc-title">目 录</p>
+  <ol class="toc-list">
+    <li><a href="#section-1">一、课程概述</a></li>
+    <li><a href="#section-2">二、简历三大核心组成</a>
+      <ol>
+        <li><a href="#section-2-1">（一）基本信息模块</a></li>
+        <li><a href="#section-2-2">（二）综合评价模块</a></li>
+        <li><a href="#section-2-3">（三）工作经历模块</a></li>
+      </ol>
+    </li>
+    <li><a href="#section-3">三、获奖信息、校园经历与兴趣爱好处理原则</a></li>
+    <li><a href="#section-4">四、简历格式通用规范</a></li>
+    <li><a href="#section-5">五、HR 电话沟通实战技巧</a></li>
+    <li><a href="#section-6">六、典型学员问题解答</a></li>
+    <li><a href="#section-7">七、课后作业</a></li>
+    <li><a href="#section-8">八、核心要点速查</a></li>
+  </ol>
+</nav>
+</section>
+
+<section role="body" data-page-restart="1">
+
+<h1 class="section-header" id="section-1">一、课程概述</h1>
+
+<p>本次课程面向设计师群体，系统讲解高分简历的完整撰写方法论。课程以「正反案例对比」为主线，从简历的三大核心板块切入，延伸至格式规范、奖项与校园经历处理、HR 电话沟通谈判技巧，最后以学员问答与课后作业收尾，形成一套可直接落地的求职方法论。</p>
+
+<p>课程要解决的核心问题是：<strong>设计师如何用一份简历，在 HR 筛选的第一分钟里完成自我定价</strong>。简历不是经历的流水账，而是经过精心设计的「产品说明书」——它需要在极短时间内向 HR 传递三件事：你是谁、你能解决什么问题、你过去真的解决过类似问题。</p>
+
+<p>整份课程内容可分为六大板块，结构如下表所示。</p>
+
+<table>
+  <thead>
+    <tr><th style="text-align:center;width:12%">板块</th><th>内容</th><th style="width:32%">核心价值</th></tr>
+  </thead>
+  <tbody>
+    <tr><td style="text-align:center">一</td><td>课程概述</td><td>建立整体认知框架</td></tr>
+    <tr><td style="text-align:center">二</td><td>简历三大核心组成</td><td>基本信息、综合评价、工作经历</td></tr>
+    <tr><td style="text-align:center">三</td><td>获奖、校园经历与兴趣爱好处理</td><td>取舍原则与年限区分</td></tr>
+    <tr><td style="text-align:center">四</td><td>简历格式通用规范</td><td>PDF、页数、排版、动态迭代</td></tr>
+    <tr><td style="text-align:center">五</td><td>HR 电话沟通实战技巧</td><td>薪资与到岗时间谈判</td></tr>
+    <tr><td style="text-align:center">六</td><td>典型学员问题与课后作业</td><td>落地行动清单</td></tr>
+  </tbody>
+</table>
+
+<p>三大核心板块之间存在明确的阅读顺序逻辑：HR 先扫<strong>基本信息</strong>做硬性筛选（年龄、学历、联系方式是否合格），再看<strong>综合评价</strong>判断候选人定位是否匹配岗位，最后用<strong>工作经历</strong>验证前面所有的自我描述是否真实可信。因此三者的写作策略必须彼此呼应，不能各自为政。</p>
+
+<p class="img-anchor" style="text-align:center;text-indent:0;">[[IMAGE:1:images/fig1-三大板块.png]]</p>
+<p class="figcaption" style="text-align:center;text-indent:0;">图 1　简历三大核心板块与 HR 阅读顺序</p>
+
+<h1 class="section-header" id="section-2">二、简历三大核心组成</h1>
+
+<h2 class="subrule" id="section-2-1">（一）基本信息模块</h2>
+
+<p>基本信息模块的核心目标是：<strong>信息清晰醒目，降低 HR 的筛选与沟通成本，同时规避踩坑点</strong>。HR 在初筛阶段平均每份简历停留时间极短，基本信息的价值不在于「写得多」，而在于「让 HR 一眼确认你符合硬性条件」。</p>
+
+<h3 class="subrule2">1. 基础个人信息</h3>
+
+<p>基础个人信息应包含以下要素，且各有其存在的业务理由。</p>
+
+<p><strong>姓名、性别、出生年月</strong>——出生年月写到「年月」即可，无需精确到日。这样做的目的是方便 HR 快速评估年龄门槛，避免因信息缺失而反复打电话核实，增加双方的沟通成本。</p>
+
+<p><strong>教育背景</strong>——需要区分三种情况处理。985/211 院校应标注院校标签并写明「统招本科」；普通本科则<strong>必须</strong>写明「统招本科」，防止招聘系统在筛选环节误判学历性质；在职学历应优先写最高学历，并标注「在职」「学信网可查」，然后再写前置学历。</p>
+
+<p><strong>联系方式</strong>——手机号是必备项；若微信与手机号同号，直接标注「（微信）」即可，也可附上二维码，方便 HR 用最低成本快速联系到你。</p>
+
+<p><strong>邮箱</strong>——优先使用 163 等正式邮箱，不推荐 QQ 邮箱。原因是不少大厂会通过邮箱发送正式面试邀约邮件，使用正式邮箱能提升职业感的整体印象。</p>
+
+<p><strong>头像</strong>——要求人像清晰、无遮挡、精神状态积极。应拒绝风景照、人物过小看不清等无效头像。建议前往海马体等专业机构拍摄职业证件照。</p>
+
+<h3 class="subrule2">2. 简历禁止写入的两项内容</h3>
+
+<p>以下两项信息<strong>绝对不能写进简历</strong>，应留到面试或电话沟通阶段再谈。</p>
+
+<p><strong>其一，期望薪资。</strong>写高了会直接失去面试机会，写低了则损害自身收益。在简历上主动暴露底牌，等于放弃了后续所有谈判空间。</p>
+
+<p><strong>其二，到岗时间。</strong>写「随时到岗」容易被 HR 借机压薪；写长周期则会劝退那些急需补人的岗位。这一信息应留到 HR 电话沟通阶段、在了解岗位紧迫程度后再有策略地释放。</p>
+
+<div class="quote-card">一句话原则：简历只负责「让 HR 想约你」，不负责「替 HR 完成面试」。凡是需要博弈的信息，都不该出现在简历上。</div>
+
+<h2 class="subrule" id="section-2-2">（二）综合评价模块</h2>
+
+<p>综合评价模块是 HR 看完基本信息后阅读的第二部分，相当于<strong>产品说明书的目录</strong>。它的作用是让 HR 在进入详细经历之前，先建立起对候选人能力定位的整体判断。</p>
+
+<p>该模块分为「核心优势」与「自我评价」两部分，共同要求是：<strong>拒绝空话套话</strong>。</p>
+
+<h3 class="subrule2">1. 核心优势</h3>
+
+<p>核心优势要写的是<strong>能力标签与差异化亮点</strong>，要坚决拒绝「美术功底扎实」这类谁都能写的通用套话。</p>
+
+<p>反面示例如下。</p>
+
+<div class="bad-card"><span class="label-bad">原稿：</span>视觉表现能力突出，美术功底扎实，理解产品需求。</div>
+
+<p>这段文字的致命问题在于：它描述的是「一个设计师应该具备的基本条件」，而不是「此人区别于其他设计师的独特条件」。HR 看完之后无法把你和另外一百份简历区分开。</p>
+
+<p>优化后的示例如下。</p>
+
+<div class="good-card"><span class="label-good">优化：</span>UI 与视觉体系搭建能力突出，主导多平台产品视觉风格，熟悉多端设计规范；掌握手绘、C4D、AE 等工具。</div>
+
+<p>优化后的版本做了三件事：一是把「视觉表现」收窄为「UI 与视觉体系搭建」，明确了能力的具体方向；二是用「主导多平台产品视觉风格」给出了可验证的职责层级；三是补充了工具栈这一硬性差异点。</p>
+
+<div class="note-card"><strong>重要提醒：</strong>投递不同岗位时，核心优势的<strong>顺序必须调整</strong>，使其贴合目标岗位 JD 的要求。简历是动态迭代的产物，不是一稿通用的模板。</div>
+
+<h3 class="subrule2">2. 自我评价万能公式</h3>
+
+<p>自我评价有一个可直接套用的结构公式。</p>
+
+<div class="formula">从业年限 ＋ 深耕行业方向（B 端／C 端／医疗／电商）＋ 工作内容 ＋ 稀缺项目经验（如从 0-1）＋ 软实力补充</div>
+
+<p>以 UI 设计师为例的示范写法。</p>
+
+<div class="good-card">8 年以上 UI 设计经验，深耕互联网医疗行业；具备跨平台设计能力，熟知 B/C 端业务差异，拥有从 0-1 项目落地经验，熟悉用户调研、全流程体验设计；协作自驱力强，擅长团队协调。</div>
+
+<p>将其拆解可以发现，这句话依次完成了：年限声明（8 年以上）、行业聚焦（互联网医疗）、能力维度（跨平台、B/C 端差异）、稀缺经验（从 0-1 落地）、软实力（协作自驱、团队协调）五个层次的填充。</p>
+
+<p>以电商设计师为例的延伸示范。</p>
+
+<div class="good-card">3 年以上电商视觉运营经验，深耕高端美妆行业，具备电商全案能力，熟悉设计体系规范。</div>
+
+<p>同一个公式换一个行业赛道即可复用，这正是公式价值的体现——它保证了自我评价的信息密度，同时避免了流水账式的自我描述。</p>
+
+<h2 class="subrule" id="section-2-3">（三）工作经历模块</h2>
+
+<p>工作经历是简历中<strong>最重要的模块</strong>，它直接决定 HR 是否发出面试邀约。前两个模块建立的是「期待」，这个模块提供的才是「证据」。</p>
+
+<h3 class="subrule2">1. 整体规则</h3>
+
+<p>工作经历的整体编排遵循三条规则：<strong>时间倒序排列</strong>；<strong>近期经历详细写</strong>；<strong>越久远的经历越精简</strong>，早年经历可以只保留工作职责、省略项目细节。这条规则的底层逻辑是：HR 最关心你最近在做什么，因为这最能预测你入职后的表现。</p>
+
+<p>工作经历包含四个组成部分：<strong>公司＆职位信息</strong>、<strong>工作职责</strong>、<strong>重点项目</strong>、<strong>业绩成果</strong>。</p>
+
+<h3 class="subrule2">2. 公司＆职位信息书写公式</h3>
+
+<div class="formula">就职时间 ＋ 公司名称 ＋ 行业方向／企业体量（独角兽、D 轮、B 端医疗等）＋ 岗位名称 ＋ 所属部门</div>
+
+<p>对于知名度较低的小公司，应主动写明<strong>行业赛道、融资轮次</strong>，并补充<strong>所属部门</strong>（如「产品设计中心」），以此来放大背景价值。这样做能有效防止 HR 因为「没听说过这家公司」而直接跳过。</p>
+
+<p>关于公司阶段的判断，课程给出了一个实用的择业参考：<strong>天使轮到 C 轮的公司可以用来面试练手，D 轮及以上的公司则值得重点关注</strong>。这一判断同时服务于求职策略与简历书写——投递前一阶段公司时，简历的打磨压力可以适度降低。</p>
+
+<h3 class="subrule2">3. 工作职责书写公式</h3>
+
+<div class="formula">负责业务线 ＋ 产品属性（B／C／G 端）＋ 工作内容与工作范畴</div>
+
+<p>示范写法。</p>
+
+<div class="good-card">负责 VR0 号空间及配套 B 端业务 UX 设计，覆盖 Web、iOS、安卓、小程序，负责从设计策略到落地执行全流程，挖掘用户需求迭代优化产品。</div>
+
+<p>这段描述的高明之处在于，它同时交代了业务对象（VR0 号空间）、产品属性（B 端）、覆盖终端（Web、iOS、安卓、小程序）、职责边界（从策略到落地全流程）与工作方法（挖掘需求、迭代优化），信息密度极高而语句不冗长。</p>
+
+<h3 class="subrule2">4. 重点项目与业绩成果：STAR 法则</h3>
+
+<p>重点项目与业绩成果的书写<strong>使用 STAR 法则</strong>，并且应<strong>优先挑选从 0-1 项目、核心版本改版等有挑战性的项目</strong>，不需要罗列全部项目，选取 1-2 个重点即可。</p>
+
+<p>STAR 法则四个要素的含义如下表所示。</p>
+
+<table>
+  <thead>
+    <tr><th style="text-align:center;width:18%">要素</th><th style="width:16%">含义</th><th>设计师语境下的具体内容</th></tr>
+  </thead>
+  <tbody>
+    <tr><td style="text-align:center">S（Situation）</td><td>背景</td><td>项目的业务背景是什么</td></tr>
+    <tr><td style="text-align:center">T（Task）</td><td>目标任务</td><td>业务目标是什么，并拆解出对应的设计目标</td></tr>
+    <tr><td style="text-align:center">A（Action）</td><td>行动</td><td>自己执行的策略与具体动作</td></tr>
+    <tr><td style="text-align:center">R（Result）</td><td>结果</td><td>按时上线、业务数据变化、正向用户反馈</td></tr>
+  </tbody>
+</table>
+
+<p>其中，<strong>R（结果）需要特别注意分三类输出</strong>：一是按时上线，二是业务数据变化，三是正向用户反馈。三类结果覆盖了「交付确定性」「商业价值」「用户体验」三个评价维度，比单一的「获得好评」更有说服力。</p>
+
+<p>下面通过正反对比来体会 STAR 法则的实际差异。</p>
+
+<div class="bad-card"><span class="label-bad">普通笼统写法：</span>负责产品设计，制作 50 个页面，获得好评。</div>
+
+<p>这段描述的问题在于：它只陈述了「做了什么」（而且是过程性数量），完全缺失背景、目标与结果，HR 无法从中判断你的能力水平。</p>
+
+<div class="good-card"><span class="label-good">STAR 改造后：</span>负责产品整体界面交互视觉设计【背景】；目标提升用户留存【目标】；调研 30 位用户，迭代 5 个版本，两周完成 30 个页面输出【行动】；产品月活获得提升，留存同比上涨，获得用户正向反馈【结果】。</div>
+
+<p>改造后的版本中，背景交代了职责范围，目标锚定了业务价值，行动给出了可验证的工作量与方法论（调研用户数、迭代版本数、交付周期与产出量），结果则落到了月活与留存这两个业务指标上，并辅以用户反馈作为定性佐证。</p>
+
+<p class="img-anchor" style="text-align:center;text-indent:0;">[[IMAGE:2:images/fig2-STAR法则.png]]</p>
+<p class="figcaption" style="text-align:center;text-indent:0;">图 2　重点项目书写：STAR 法则四要素</p>
+
+<h3 class="subrule2">5. 小项目技巧</h3>
+
+<p>即使是小功能模块，也可以通过 STAR 突出自己<strong>解决问题的能力</strong>。HR 重点看的是解决问题的思路，而不会纠结项目的体量大小。因此，不要因为「项目太小」就放弃包装——关键在于把「如何发现问题、如何拆解、如何验证」这条思路链条讲清楚。</p>
+
+<h1 class="section-header" id="section-3">三、获奖信息、校园经历与兴趣爱好处理原则</h1>
+
+<h2 class="subrule">（一）获奖信息</h2>
+
+<p>获奖信息遵循<strong>含金量分层</strong>原则放置：高含金量奖项（如站酷三火、Behance 首推、大厂内部奖项）应放在<strong>综合评价板块</strong>展示，让 HR 在第一时间看到；普通培训机构颁发的奖项则<strong>不要写</strong>，因为它们会稀释真正有分量的荣誉。</p>
+
+<p>同时，奖项的取舍还要<strong>区分工作年限</strong>。</p>
+
+<table>
+  <thead>
+    <tr><th style="text-align:center;width:34%">工作年限</th><th>奖项处理策略</th></tr>
+  </thead>
+  <tbody>
+    <tr><td style="text-align:center">3 年以下（职场新人）</td><td>可写培训证书、设计相关认证，用以弥补工作经验的不足</td></tr>
+    <tr><td style="text-align:center">5 年以上（资深从业者）</td><td>只保留行业重磅奖项，其余一律剔除</td></tr>
+  </tbody>
+</table>
+
+<h2 class="subrule">（二）校园经历</h2>
+
+<p>校园经历的处理同样以工作年限为分界线：<strong>工作 3 年以上应删除全部校园经历</strong>；<strong>工作 3 年以内</strong>只写设计相关的实践、实习与设计竞赛成果，<strong>不写普通社团、班干部经历</strong>，重点体现实践能力。</p>
+
+<p>这条原则的逻辑是：校园经历的本质是「工作经验不足时的替代证据」。一旦工作年限足够，真实的项目经历就是更有力的证明，此时保留校园经历反而会显得职业积累单薄。</p>
+
+<h2 class="subrule">（三）兴趣爱好</h2>
+
+<p>兴趣爱好<strong>只写与岗位相关的爱好</strong>，例如摄影、剪辑——它们可以侧面印证与设计相关的审美能力与内容生产能力。而健身、唱歌、球类运动等与岗位无关的爱好应当<strong>全部删掉</strong>，因为它们占用简历篇幅却不产生筛选价值。</p>
+
+<h1 class="section-header" id="section-4">四、简历格式通用规范</h1>
+
+<h2 class="subrule">（一）文件格式</h2>
+
+<p>简历必须输出为 <strong>PDF 格式</strong>，页数控制在 <strong>2 页以内</strong>，以便 HR 直接打印。同时，<strong>简历与作品集必须分开</strong>，不要合并成一个文件——两者的阅读场景与阅读节奏完全不同，合并会让 HR 在筛选环节陷入两难。</p>
+
+<h2 class="subrule">（二）排版原则</h2>
+
+<p>排版应遵循<strong>简洁直观</strong>的原则，拒绝花里胡哨的设计。核心纪律是：<strong>不能为了视觉效果牺牲阅读效率</strong>。设计师尤其容易在这个问题上犯错——把简历当成作品集来做，结果反而增加了 HR 的阅读负担。</p>
+
+<div class="quote-card">简历的视觉设计目标不是「展示设计能力」，而是「让信息更快被读到」。作品集才是展示设计能力的地方。</div>
+
+<h2 class="subrule">（三）动态迭代</h2>
+
+<p>简历不是写完就结束的静态文档，而是一个需要持续迭代的产品。具体包括三个动作：<strong>每投递不同岗位，针对性调整内容</strong>；<strong>面试后复盘，持续迭代版本</strong>；<strong>投递 B 端岗位就强化 B 端经历，投递 C 端岗位就强化 C 端经历</strong>。</p>
+
+<h1 class="section-header" id="section-5">五、HR 电话沟通实战技巧</h1>
+
+<p>电话沟通是简历筛选通过后的第一道关卡。HR 通常会在电话中询问现有薪资、期望薪资与到岗时间——这三类信息不写简历，但一定会被电话问到。本节内容来自学员问答中的重点问题。</p>
+
+<h2 class="subrule">（一）薪资问答</h2>
+
+<p><strong>当前薪资</strong>的处理策略是：可以适度上浮 <strong>1000-2000 元</strong>，利用个税、避税带来的流水浮动空间作为解释依据，以应对行业普遍存在的压薪现状。</p>
+
+<p><strong>期望薪资</strong>的处理策略是：<strong>不说固定数字</strong>。推荐表述为：</p>
+
+<div class="good-card">期望涨幅 30% 左右，可以根据业务匹配度、团队情况进行调整。</div>
+
+<p>这种表述的价值在于：一方面给出了 HR 可以评估的参考区间，另一方面为自己保留了谈判退路，<strong>优先争取进入面试流程</strong>——因为只有进入流程，才有后续谈薪的空间。</p>
+
+<h2 class="subrule">（二）到岗时间应对</h2>
+
+<p>到岗时间的回答需要根据自身状态分类处理，具体策略如下表所示。</p>
+
+<table>
+  <thead>
+    <tr><th style="text-align:center;width:26%">自身状态</th><th style="width:32%">应对策略</th><th>理由与要点</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>在职（骑驴找马）</td><td>说明需要交接，提出约一个月到岗</td><td>理由充分，HR 普遍可接受</td></tr>
+    <tr><td>已经离职状态</td><td>最多争取 1-2 周缓冲期</td><td>不建议说 1 个月，避免被认为不急于求职</td></tr>
+    <tr><td>还想看更多机会</td><td>委婉透露手上还有面试流程在走</td><td>客观理由可用搬家、处理个人事务</td></tr>
+    <tr><td>心仪的急招岗位</td><td>可适度缩短到岗时间</td><td>可暗示有其他竞品公司面试，塑造稀缺性，减少被压薪</td></tr>
+    <tr><td>拿 offer 保底</td><td>态度诚恳，给自己争取缓冲</td><td>试用期内依然可以继续面试其他机会</td></tr>
+  </tbody>
+</table>
+
+<h2 class="subrule">（三）谈判小技巧</h2>
+
+<p>在实际谈判中，还有一个被广泛使用的技巧：<strong>适度使用「虚拟竞品 offer」</strong>，以此引导直属领导帮自己争取更高的薪资。同时需要建立合理的预期——<strong>一线大厂的涨幅上限普遍在 20%-30% 左右</strong>，超出这一区间的要求往往难以实现。</p>
+
+<p class="img-anchor" style="text-align:center;text-indent:0;">[[IMAGE:3:images/fig3-HR沟通策略.png]]</p>
+<p class="figcaption" style="text-align:center;text-indent:0;">图 3　HR 电话沟通：三类高频问题的应对策略</p>
+
+<h1 class="section-header" id="section-6">六、典型学员问题解答</h1>
+
+<p><strong>问题：</strong>主要做 C 端，只接触过很小的 B 端功能模块，应聘 B 端岗位简历怎么写？</p>
+
+<p>解答要点如下。</p>
+
+<p><strong>第一，简历与作品集要匹配。</strong>两者不能各说各话，作品集中展示的项目应当能在简历中找到对应描述。</p>
+
+<p><strong>第二，简历要写该 B 端模块项目，并使用 STAR 包装。</strong>重点写调研、梳理痛点、优化方案、用户反馈这四个环节，突出解决业务问题的能力，而非仅仅列出「做过什么功能」。</p>
+
+<p><strong>第三，区分岗位类型。</strong>大 B（SaaS 后台）与小 B（面向商户、从业者）的能力要求并不一样，需要仔细阅读 JD 后再决定强化哪一侧的经历。</p>
+
+<p><strong>第四，没有真实项目可以做 Redesign 重构项目补充。</strong>通过主动重构现有产品的方式，展示自己的设计思路与解决问题的能力。</p>
+
+<h1 class="section-header" id="section-7">七、课后作业</h1>
+
+<p>本次课程布置了以下作业，需要在相应的求职阶段内完成。</p>
+
+<p><strong>作业一：使用产品思维审视自己简历。</strong>梳理现存问题，完成<strong>简历 1.0 初稿</strong>；如果此前没有简历，则按课程公式新建。后续做完个人求职顶层规划之后，再次迭代简历。</p>
+
+<p><strong>作业二：写下听课印象最深的 3 点收获</strong>，并发到学习群。</p>
+
+<div class="note-card"><strong>进度提示：</strong>目前进度到简历阶段的学员，需要<strong>在一周内完成简历 1.0</strong>，提交讲师做简历诊断，抓住求职窗口期。</div>
+
+<h1 class="section-header" id="section-8">八、核心要点速查</h1>
+
+<p>为便于复习与自查，将本次课程的核心方法论浓缩如下。</p>
+
+<table>
+  <thead>
+    <tr><th style="text-align:center;width:22%">模块</th><th>关键公式 / 原则</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>基本信息</td><td>出生年月到月即可；普通本科必写「统招本科」；<strong>不写期望薪资、不写到岗时间</strong></td></tr>
+    <tr><td>综合评价</td><td>核心优势写差异化能力标签；自我评价 ＝ 年限 ＋ 行业 ＋ 工作内容 ＋ 稀缺经验 ＋ 软实力</td></tr>
+    <tr><td>工作经历</td><td>时间倒序；公司信息 ＝ 时间 ＋ 公司 ＋ 行业／体量 ＋ 岗位 ＋ 部门；重点项目用 STAR，选 1-2 个</td></tr>
+    <tr><td>获奖与校园</td><td>高含金量奖项放综合评价；3 年以上删除校园经历与普通奖项</td></tr>
+    <tr><td>格式规范</td><td>PDF、2 页以内、简历与作品集分开、随岗位动态迭代</td></tr>
+    <tr><td>电话沟通</td><td>当前薪资可上浮 1000-2000；期望薪资说涨幅 30% 不说数字；到岗时间分状态应对</td></tr>
+  </tbody>
+</table>
+
+<div class="quote-card">把一句话作为整门课程的总结：<strong>简历是动态迭代的产品，每一次投递都是一次版本发布。</strong>没有一稿通用的简历，只有持续优化的版本。</div>
+
+</section>
+
+</body>
+</html>
